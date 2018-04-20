@@ -33,7 +33,7 @@ app.post('/mylocation', (req, res) => {
 		[whoami, whereami],
 		(err) => {
 			if(err) throw err;
-			res.redirect('http://localhost:8000/');
+			res.redirect('http://hyuerica.likelion.org/porerri/');
 		}
 	)
 });
